@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        jcenter()
+        maven {
+            name = 'Data Driven Structures'
+            url = 'https://github.com/TheDeathlyCow/data-structures'
+        }
+        gradlePluginPortal()
+    }
+}
