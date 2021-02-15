@@ -1,5 +1,6 @@
 package com.github.thedeathlycow.gen.structures;
 
+import com.github.thedeathlycow.DataStructures;
 import com.github.thedeathlycow.gen.ModStructures;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.structure.*;

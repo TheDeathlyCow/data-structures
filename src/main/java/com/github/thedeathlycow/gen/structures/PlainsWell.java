@@ -14,13 +14,14 @@ import net.minecraft.world.gen.feature.DefaultFeatureConfig;
 import net.minecraft.world.gen.feature.StructureFeature;
 
 public class PlainsWell extends StructureFeature<DefaultFeatureConfig> {
+
     public PlainsWell(Codec<DefaultFeatureConfig> codec) {
         super(codec);
     }
 
     @Override
     public StructureStartFactory<DefaultFeatureConfig> getStructureStartFactory() {
-        return null;
+        return Start::new;
     }
 
     public static class Start extends StructureStart<DefaultFeatureConfig> {
